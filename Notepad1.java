@@ -1,8 +1,8 @@
 import java.awt.*;
 
-public class Notepad1
+public class Notepad
 {
-    Notepad1()
+    Notepad()
     {
         Frame f = new Frame("Notepad");
         MenuBar mb = new MenuBar();
@@ -56,6 +56,6 @@ public class Notepad1
     }
     public static void main(String args[])
     {
-        new Notepad1();
+        new Notepad();
     }
 }
